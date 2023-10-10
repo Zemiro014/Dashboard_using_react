@@ -23,7 +23,6 @@ const Contacts = () => {
       flex: 1,
       cellClassName: "name-column--cell"
     },
-
     {
       field: "email",
       headerName: "Email",
