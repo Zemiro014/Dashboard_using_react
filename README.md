@@ -76,3 +76,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Mode Light
 ![image](https://github.com/Zemiro014/Dashboard_using_react/assets/72985209/0da93642-9724-4ae5-a47f-5a3fb005a1c7)
+
+### Calendar Menu
+![image](https://github.com/Zemiro014/Dashboard_using_react/assets/72985209/8f1216c0-9546-4f0c-9321-164e51e85111)
+
+### Geography Chart Menu
+![image](https://github.com/Zemiro014/Dashboard_using_react/assets/72985209/254e5717-00ce-44d9-9f18-ff01adbbde8a)
+
+### Bar Chart Menu
+![image](https://github.com/Zemiro014/Dashboard_using_react/assets/72985209/25ef2b2d-cd80-4e2b-81ee-d5065f8b619e)
+
+
