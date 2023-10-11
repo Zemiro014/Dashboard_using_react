@@ -20,7 +20,7 @@ const Dashboard = () => {
   return (
     <Box m="20px">
       {/* HEADER */}
-      <Box display="flex" justifyContent="space-between" alignItems="center">
+      <Box display="flex" justifyContent="space-between" alignItems="center" mb="15px">
         <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
 
         <Box>
