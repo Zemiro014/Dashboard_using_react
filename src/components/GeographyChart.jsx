@@ -2,9 +2,11 @@ import React from 'react'
 import { useChartsDefs } from '../config/chartsDefs'
 import { ResponsiveChoropleth } from '@nivo/geo'
 import { useTheme } from '@mui/material';
+import { mockGeographyData as data } from '../data/mockData'
+import { geoFeatures } from '../data/mockGeoFeatures'
 import { tokens } from '../theme';
 
-const GeographyChart = ({ data, features, isDashboard = false }) => {
+const GeographyChart = ({ isDashboard = false }) => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
 
@@ -15,7 +17,7 @@ const GeographyChart = ({ data, features, isDashboard = false }) => {
         <ResponsiveChoropleth
             data={data}
             theme={pieChartDefinitions.theme}
-            features={features}
+            features={geoFeatures.features}
             margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
             domain={[0, 1000000]}
             unknownColor="#666666"

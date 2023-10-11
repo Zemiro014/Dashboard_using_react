@@ -1,8 +1,9 @@
 import React from 'react'
 import { ResponsivePie } from '@nivo/pie'
 import { useChartsDefs } from '../config/chartsDefs'
+import { mockPieData as data } from '../data/mockData'
 
-const PieChart = ({ data, isDashboard = false }) => {
+const PieChart = ({ isDashboard = false }) => {
     const {
         pieChartDefinitions
     } = useChartsDefs(isDashboard)

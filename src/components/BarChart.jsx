@@ -1,7 +1,8 @@
 import { ResponsiveBar } from '@nivo/bar'
 import { useChartsDefs } from '../config/chartsDefs'
+import { mockBarData as data } from '../data/mockData'
 
-const BarChart = ({ data, isDashboard = false }) => {
+const BarChart = ({ isDashboard = false }) => {
     const {
         barChartDefinitions
     } = useChartsDefs(isDashboard)

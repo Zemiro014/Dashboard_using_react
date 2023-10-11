@@ -1,8 +1,9 @@
 import React from 'react'
 import { ResponsiveLine } from '@nivo/line'
 import { useChartsDefs } from '../config/chartsDefs'
+import { mockLineData as data } from '../data/mockData'
 
-const LineChart = ({ data, isDashboard = false }) => {
+const LineChart = ({ isDashboard = false }) => {
     const {
         pieChartDefinitions
     } = useChartsDefs(isDashboard)
